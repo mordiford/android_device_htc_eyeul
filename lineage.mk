@@ -17,13 +17,13 @@
 $(call inherit-product, device/htc/eyeul/full_eyeul.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+# $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-PRODUCT_NAME := cm_eyeul
+PRODUCT_NAME := lineage_eyeul
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT="htc/htc_europe/htc_eyeul:5.0.2/LRX22G/504177.1:user/release-keys" \
-    PRIVATE_BUILD_DESC="2.19.401.1 CL504177 release-keys"
+    BUILD_FINGERPRINT="htc/htc_asia_tw/htc_eyetuhl:6.0.1/MMB29M/707673.1:user/release-keys" \
+    PRIVATE_BUILD_DESC="4.11.709.1 CL707673 release-keys"

@@ -38,7 +38,7 @@
 TARGET_OTA_ASSERT_DEVICE := eyeul
 
 # Kernel
-TARGET_KERNEL_CONFIG := cm_eyeul_defconfig
+TARGET_KERNEL_CONFIG := lineage_eyeul_defconfig
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/htc/eyeul/bluetooth

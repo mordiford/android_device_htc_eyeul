@@ -73,8 +73,8 @@ lib/libcamerapp.so
 lib/libcameraface.so
 lib/libhtccamera_yushaniiproc.so
 lib/libhtc_depthmap.so
-lib/lib/libmmcamera_interface.so
-lib/lib/libmmcamera_rubik.so
+lib/libmmcamera_interface.so
+lib/libmmcamera_rubik.so
 lib/libmmjpeg_interface.so
 lib/libposteffect.so
 lib/libqomx_core.so

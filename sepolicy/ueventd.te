@@ -1,0 +1,2 @@
+allow ueventd camera_socket:chr_file { create setattr };
+allow ueventd gesture_dev:file { getattr relabelto };

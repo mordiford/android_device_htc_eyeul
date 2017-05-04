@@ -54,6 +54,10 @@ TARGET_SPECIFIC_HEADER_PATH := device/htc/eyeul/include
 # NFC
 BOARD_NFC_CHIPSET := pn547
 
+# SELinux
+include device/qcom/sepolicy/sepolicy.mk
+BOARD_SEPOLICY_DIRS += device/htc/eyeul/sepolicy
+
 # Partitions
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 4294967296
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 10200547328

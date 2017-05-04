@@ -21,7 +21,8 @@ $(call inherit-product, device/htc/msm8974-common/msm8974-common.mk)
 
 # Permissions
 PRODUCT_COPY_FILES += \
-    device/htc/eyeul/configs/com.htc.software.market.xml:system/etc/permissions/com.htc.software.market.xml
+    device/htc/eyeul/configs/com.htc.software.market.xml:system/etc/permissions/com.htc.software.market.xml \
+	frameworks/native/data/etc/android.hardware.nfc.hce.xml:system/etc/permissions/android.hardware.nfc.hce.xml
 
 # Init
 PRODUCT_PACKAGES += \

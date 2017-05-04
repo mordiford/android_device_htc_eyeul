@@ -49,7 +49,7 @@ TARGET_SPECIFIC_CAMERA_PARAMETER_LIBRARY := libcamera_parameters_ext
 USE_DEVICE_SPECIFIC_CAMERA := true
 
 # Includes
-TARGET_SPECIFIC_HEADER_PATH := device/htc/eyeul/include
+TARGET_SPECIFIC_HEADER_PATH += device/htc/eyeul/include
 
 # NFC
 BOARD_NFC_CHIPSET := pn547

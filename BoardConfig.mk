@@ -51,6 +51,9 @@ USE_DEVICE_SPECIFIC_CAMERA := true
 # Includes
 TARGET_SPECIFIC_HEADER_PATH += device/htc/eyeul/include
 
+#RIL
+BOARD_PROVIDES_LIBRIL := false;
+
 # NFC
 BOARD_NFC_CHIPSET := pn547
 

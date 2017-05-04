@@ -14,15 +14,19 @@
 # limitations under the License.
 #
 
-$(call inherit-product, device/htc/eyeul/full_eyeul.mk)
+$(call inherit-product, device/htc/eyeul/device.mk)
 
 # Enhanced NFC
 # $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 
-# Inherit some common CM stuff.
+# Inherit some common Lineage stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 PRODUCT_NAME := lineage_eyeul
+PRODUCT_DEVICE := eyeul
+PRODUCT_BRAND := htc
+PRODUCT_MANUFACTURER := HTC
+PRODUCT_MODEL := Desire Eye
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT="htc/htc_asia_tw/htc_eyetuhl:6.0.1/MMB29M/707673.1:user/release-keys" \

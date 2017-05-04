@@ -19,6 +19,22 @@ $(call inherit-product-if-exists, vendor/htc/eyeul/eyeul-vendor.mk)
 # Inherit from msm8974-common
 $(call inherit-product, device/htc/msm8974-common/msm8974-common.mk)
 
+# Camera
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.camera.maxopen=3
+
+PRODUCT_PACKAGES += \
+    camera.msm8974 \
+    Snap
+
+# Filesystem management tools
+PRODUCT_PACKAGES += \
+    resize2fs_static
+
+# Perf
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.extension_library=/vendor/lib/libqti-perfd-client.so
+
 # Permissions
 PRODUCT_COPY_FILES += \
     device/htc/eyeul/configs/com.htc.software.market.xml:system/etc/permissions/com.htc.software.market.xml \

@@ -8,3 +8,6 @@ TW_IGNORE_MAJOR_AXIS_0 := true
 TW_MAX_BRIGHTNESS := 255
 TW_NO_SCREEN_BLANK := true
 TW_EXCLUDE_DEFAULT_USB_INIT := true
+
+PRODUCT_PACKAGES += \
+    device/htc/eyeul/recovery/root/init.recovery.usb.rc

@@ -7,4 +7,3 @@ TARGET_RECOVERY_FSTAB := device/htc/eyeul/recovery/twrp.fstab
 TW_IGNORE_MAJOR_AXIS_0 := true
 TW_MAX_BRIGHTNESS := 255
 TW_NO_SCREEN_BLANK := true
-TW_EXCLUDE_DEFAULT_USB_INIT := true

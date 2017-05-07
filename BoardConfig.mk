@@ -62,10 +62,5 @@ BOARD_SEPOLICY_DIRS += device/htc/eyeul/sepolicy
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 4294967296
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 10200547328
 
-# TWRP Support - Optional
-ifeq ($(WITH_TWRP),true)
--include device/htc/eyeul/twrp.mk
-endif
-
 # Inherit from the proprietary version
 -include vendor/htc/eyeul/BoardConfigVendor.mk

@@ -627,7 +627,7 @@ vendor/firmware/wcnss.b09|96a8956b6b33e2df065131c40d3b0bd1e112612d
 vendor/firmware/wcnss.mdt|10ddd8a73e253fdf483902cb2515c827f155ca84
 
 # NFC
-lib/hw/libpn547_fw.so
+vendor/firmware/libpn547_fw.so
 
 # GPS
 etc/flp.conf

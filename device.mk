@@ -54,7 +54,8 @@ PRODUCT_PACKAGES += \
 	
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
-    $(LOCAL_PATH)/configs/libnfc-nxp.conf:system/etc/libnfc-nxp.conf 
+    $(LOCAL_PATH)/configs/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
+    $(LOCAL_PATH)/configs/res_ctrl.conf:system/etc/res_ctrl.conf
 
 # SSL Compat
 PRODUCT_PACKAGES += \

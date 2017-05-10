@@ -30,6 +30,10 @@ PRODUCT_PACKAGES += \
     camera.msm8974 \
     Snap
 
+# LCD Density
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.sf.lcd_density=400
+	
 # Filesystem management tools
 PRODUCT_PACKAGES += \
     resize2fs_static

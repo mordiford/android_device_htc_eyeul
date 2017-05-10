@@ -25,16 +25,8 @@
 /data/persist/cprm(/.*)?	u:object_r:data_qsee_file:s0
 /data/persist/securemm(/.*)?	u:object_r:data_qsee_file:s0
 
-/system/bin/cir_fw_update	u:object_r:cir_fw_update_exec:s0
 /system/bin/hcheck		u:object_r:hcheck_exec:s0
 /system/bin/thermanager		u:object_r:thermanager_exec:s0
-
-/system/blobs/gsm/bin/netmgrd	u:object_r:netmgrd_exec:s0
-/system/blobs/gsm/bin/qmuxd	u:object_r:qmuxd_exec:s0
-/system/blobs/spr/bin/netmgrd	u:object_r:netmgrd_exec:s0
-/system/blobs/spr/bin/qmuxd	u:object_r:qmuxd_exec:s0
-/system/blobs/vzw/bin/netmgrd	u:object_r:netmgrd_exec:s0
-/system/blobs/vzw/bin/qmuxd	u:object_r:qmuxd_exec:s0
 
 /data/system/default_values	u:object_r:mpctl_data_file:s0
 

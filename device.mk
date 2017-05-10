@@ -45,7 +45,7 @@ PRODUCT_COPY_FILES += \
 
 # Keylayouts and Keychars
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/keylayout/device-keypad.idc:system/usr/keylayout/device-keypad.idc
+    $(LOCAL_PATH)/keylayout/device-keypad.kl:system/usr/keylayout/device-keypad.kl
 
 # Init
 PRODUCT_PACKAGES += \

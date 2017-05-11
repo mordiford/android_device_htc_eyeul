@@ -80,7 +80,11 @@
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
     <integer name="config_deviceHardwareKeys">96</integer>
-	
+
+    <!-- Indicates that the device has Single-stage Camera key
+        (without "Focus" state) instead of Dual-stage. -->
+    <bool name="config_singleStageCameraKey">true</bool>
+
     <!-- SD card is hot-pluggable on this device -->
     <bool name="config_batterySdCardAccessibility">true</bool>
 	

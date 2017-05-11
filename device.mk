@@ -31,8 +31,8 @@ PRODUCT_PACKAGES += \
     Snap
 
 # LCD Density
-PRODUCT_PROPERTY_OVERRIDES += \
-	ro.sf.lcd_density=400
+#PRODUCT_PROPERTY_OVERRIDES += \
+#	ro.sf.lcd_density=400
 	
 # Filesystem management tools
 PRODUCT_PACKAGES += \

@@ -50,6 +50,7 @@ USE_DEVICE_SPECIFIC_CAMERA := true
 
 # RIL
 TARGET_NEEDS_GCC_LIBC := true
+TARGET_NEEDS_GCC_LIBRIL := true
 
 # Includes
 TARGET_SPECIFIC_HEADER_PATH += device/htc/eyeul/include

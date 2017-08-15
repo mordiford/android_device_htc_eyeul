@@ -13,7 +13,6 @@
 /dev/htc_diag			u:object_r:htc_diag_device:s0
 /dev/radio			u:object_r:qcril_device:s0
 /dev/rfkill			u:object_r:bluetooth_device:s0
-/dev/time_helper		u:object_r:time_helper_device:s0
 /dev/ttyHSL1                    u:object_r:console_device:s0
 
 /data/app_g(/.*)?		u:object_r:hcheck_data_file:s0

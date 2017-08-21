@@ -19,7 +19,6 @@ $(call inherit-product-if-exists, vendor/htc/eyeul/eyeul-vendor.mk)
 # Inherit from msm8974-common
 $(call inherit-product, device/htc/msm8974-common/msm8974-common.mk)
 
-<<<<<<< HEAD
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += device/htc/eyeul/overlay
 
@@ -69,7 +68,3 @@ PRODUCT_COPY_FILES += \
 # SSL Compat
 PRODUCT_PACKAGES += \
     libboringssl-compat
-=======
-# Inherit from m8-common
-$(call inherit-product, device/htc/m8-common/m8-common.mk)
->>>>>>> fcd2ac9... m8: Switch to source-built RIL

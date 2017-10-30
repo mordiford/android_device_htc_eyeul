@@ -510,7 +510,6 @@ etc/hltrd.bin
 # DRM and SEE
 bin/qseecomd
 lib/libdrmdecrypt.so
-vendor/lib/mediadrm/libdrmclearkeyplugin.so
 vendor/lib/libdrmdiag.so
 vendor/lib/libdrmfs.so
 vendor/lib/libdrmtime.so

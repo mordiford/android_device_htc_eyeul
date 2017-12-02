@@ -19,10 +19,13 @@ $(call inherit-product, device/htc/eyeul/device.mk)
 # Enhanced NFC
 # $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common AICP stuff.
+$(call inherit-product, vendor/aicp/configs/common.mk)
 
-PRODUCT_NAME := lineage_eyeul
+# Inherit telephony stuff
+$(call inherit-product, vendor/aicp/configs/telephony.mk)
+
+PRODUCT_NAME := aicp_eyeul
 PRODUCT_DEVICE := eyeul
 PRODUCT_BRAND := htc
 PRODUCT_MANUFACTURER := HTC
@@ -31,3 +34,12 @@ PRODUCT_MODEL := Desire Eye
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT="htc/htc_asia_tw/htc_eyetuhl:6.0.1/MMB29M/707673.1:user/release-keys" \
     PRIVATE_BUILD_DESC="4.11.709.1 CL707673 release-keys"
+
+# AICP Device Maintainers
+PRODUCT_BUILD_PROP_OVERRIDES += \
+        DEVICE_MAINTAINERS="lindwurm"
+
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_WIDTH := 1080
+-include vendor/aicp/configs/bootanimation.mk
